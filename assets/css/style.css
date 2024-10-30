@@ -1,0 +1,111 @@
+.coin-tags-wrapper {
+	clear: both;
+	margin-top: 30px;
+}
+
+.coin-tags-wrapper .kvp-copy,
+.coin-tags-wrapper .kvp-copy a{
+	color: #617283;
+	font-size: 10px;
+}
+
+.coin-tags-wrapper .kvp-copy a{
+	text-decoration: underline;
+}
+
+.coin-tags-wrapper a:hover,
+.coin-tags-wrapper a{
+	text-decoration: none !important;
+}
+
+.coin-tags-wrapper .coin-tags-container {
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.03);
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 20px;
+	border-bottom: 1px solid #ececec;
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-name {
+	height: 50px;
+	display: flex;
+	padding-left: 12px;
+	background: 20px center/25px 25px no-repeat;
+	text-decoration: none;
+	text-align: left;
+	align-items: center;
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-name  > div:nth-child(2) {
+	font-weight: 500;
+	color: #1e2e42;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-name > div {
+	margin-right: 5px;
+	font-size: 14px;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-name > div:last-child {
+	margin-right: 0;
+	color: #617283;
+}
+.align-items-center {
+	align-items: center;
+}
+
+.d-flex {
+	display: flex;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price {
+	display: flex;
+	align-items: center;
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price .price {
+	margin-right: 5px;
+	font-size: 14px;
+	color: #1e2e42;;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price > div {
+	text-align: right;
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price .price-change  {
+	min-width: 50px;
+	margin-right: 12px;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price > div {
+	text-align: right;
+}
+.price-change {
+	color: #a4cb66;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.price-change.down  {
+	color: #d00000;
+}
+
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price > div {
+	text-align: right;
+}
+.coin-tags-wrapper .coin-tags-container .coin-tag-entry .entry-price .buy-now {
+	line-height: 21px;
+	width: 50px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #4a90e2;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	position: relative;
+	top: -4px;
+}
